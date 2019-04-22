@@ -1,0 +1,32 @@
+body {
+  background-image: url('drums.jpg');
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.wrapper {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.key {
+  display: inline-block;
+  height: 20px;
+  padding: 10px;
+  border: 1px solid #fff;
+  margin: 0 2px;
+}
+
+.playing {
+  color: #fff;
+  border: 2px solid #000;
+  transition: 0.07s;
+}
+
+kbd {
+  font-size: 28px;
+}
